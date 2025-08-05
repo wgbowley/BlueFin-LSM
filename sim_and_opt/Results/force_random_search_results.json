@@ -1,0 +1,2279 @@
+[
+    {
+        "iteration": 0,
+        "slot_height": 0.2590262225905309,
+        "slot_radius": 1.4273431481673837,
+        "slot_spacing": 12.256772972633211,
+        "status": "completed",
+        "avg_force": 0.2876843636363636,
+        "avg_power": 5.599538636363636,
+        "accepted": true
+    },
+    {
+        "iteration": 1,
+        "slot_height": 10.624295321735534,
+        "slot_radius": 7.2943119486525765,
+        "slot_spacing": 14.048687852138162,
+        "status": "completed",
+        "avg_force": 21.22283290909091,
+        "avg_power": 1335.6709815454544,
+        "accepted": false
+    },
+    {
+        "iteration": 2,
+        "slot_height": 8.550385262212288,
+        "slot_radius": 4.963687066083895,
+        "slot_spacing": 11.789263111335227,
+        "status": "completed",
+        "avg_force": 4.172732818181818,
+        "avg_power": 643.7596673636364,
+        "accepted": false
+    },
+    {
+        "iteration": 3,
+        "slot_height": 9.795515181658535,
+        "slot_radius": 12.249158367616985,
+        "slot_spacing": 13.467787103411318,
+        "status": "completed",
+        "avg_force": 16.325669363636365,
+        "avg_power": 2598.914022636364,
+        "accepted": false
+    },
+    {
+        "iteration": 4,
+        "slot_height": 3.8599145110985327,
+        "slot_radius": 4.832563676903114,
+        "slot_spacing": 1.3960983311784008,
+        "status": "completed",
+        "avg_force": 13.911457818181821,
+        "avg_power": 280.78403745454546,
+        "accepted": false
+    },
+    {
+        "iteration": 5,
+        "slot_height": 2.8409703428223216,
+        "slot_radius": 7.322597881760378,
+        "slot_spacing": 18.829786438198536,
+        "status": "completed",
+        "avg_force": 4.554006909090909,
+        "avg_power": 360.5958087272727,
+        "accepted": false
+    },
+    {
+        "iteration": 6,
+        "slot_height": 17.438006247224855,
+        "slot_radius": 0.5284244106700209,
+        "slot_spacing": 13.773907481881619,
+        "status": "completed",
+        "avg_force": 3.972387636363637,
+        "avg_power": 103.18717263636364,
+        "accepted": true
+    },
+    {
+        "iteration": 7,
+        "slot_height": 16.279236534019407,
+        "slot_radius": 6.6772058179666205,
+        "slot_spacing": 5.423315852604379,
+        "status": "completed",
+        "avg_force": 12.987255272727271,
+        "avg_power": 1814.8050207272727,
+        "accepted": false
+    },
+    {
+        "iteration": 8,
+        "slot_height": 13.43448131463308,
+        "slot_radius": 23.3581427724331,
+        "slot_spacing": 6.227327186763722,
+        "status": "completed",
+        "avg_force": 32.70700872727272,
+        "avg_power": 9912.481790545453,
+        "accepted": false
+    },
+    {
+        "iteration": 9,
+        "slot_height": 14.601020392291934,
+        "slot_radius": 7.693538718568136,
+        "slot_spacing": 6.617832422928323,
+        "status": "completed",
+        "avg_force": 11.75346390909091,
+        "avg_power": 1977.2072920909093,
+        "accepted": false
+    },
+    {
+        "iteration": 10,
+        "slot_height": 15.78452853924579,
+        "slot_radius": 12.606361799875474,
+        "slot_spacing": 10.117213751350409,
+        "status": "completed",
+        "avg_force": 36.800126636363636,
+        "avg_power": 4373.951031999999,
+        "accepted": false
+    },
+    {
+        "iteration": 11,
+        "slot_height": 20.204979197047372,
+        "slot_radius": 1.6933633008593896,
+        "slot_spacing": 9.175474637097203,
+        "status": "completed",
+        "avg_force": 11.263780636363636,
+        "avg_power": 419.71993245454547,
+        "accepted": false
+    },
+    {
+        "iteration": 12,
+        "slot_height": 17.733693548702707,
+        "slot_radius": 11.688258761123155,
+        "slot_spacing": 12.199821719730277,
+        "status": "completed",
+        "avg_force": 45.96396045454544,
+        "avg_power": 4386.096957545454,
+        "accepted": false
+    },
+    {
+        "iteration": 13,
+        "slot_height": 8.801954667557856,
+        "slot_radius": 21.176651062600826,
+        "slot_spacing": 4.088366697525513,
+        "status": "completed",
+        "avg_force": 84.36989999999999,
+        "avg_power": 5523.821249454545,
+        "accepted": false
+    },
+    {
+        "iteration": 14,
+        "slot_height": 14.945466567460622,
+        "slot_radius": 6.931061473635047,
+        "slot_spacing": 6.361724137669179,
+        "status": "completed",
+        "avg_force": 11.645496363636363,
+        "avg_power": 1752.6293760909093,
+        "accepted": false
+    },
+    {
+        "iteration": 15,
+        "slot_height": 13.626916104190071,
+        "slot_radius": 5.238929550184381,
+        "slot_spacing": 9.8153412308011,
+        "status": "completed",
+        "avg_force": 15.926338363636365,
+        "avg_power": 1099.9269547272727,
+        "accepted": false
+    },
+    {
+        "iteration": 16,
+        "slot_height": 16.21509485169709,
+        "slot_radius": 0.10152700125363179,
+        "slot_spacing": 11.937461657888807,
+        "status": "completed",
+        "avg_force": 0.8016169090909091,
+        "avg_power": 18.924900363636365,
+        "accepted": true
+    },
+    {
+        "iteration": 17,
+        "slot_height": 1.7879703764414638,
+        "slot_radius": 3.7138928967870752,
+        "slot_spacing": 2.020214609518863,
+        "status": "completed",
+        "avg_force": 8.536088,
+        "avg_power": 93.38149245454547,
+        "accepted": true
+    },
+    {
+        "iteration": 18,
+        "slot_height": 12.359402409860655,
+        "slot_radius": 10.749311708273677,
+        "slot_spacing": 11.886993296975179,
+        "status": "completed",
+        "avg_force": 24.24401418181818,
+        "avg_power": 2701.432456363637,
+        "accepted": false
+    },
+    {
+        "iteration": 19,
+        "slot_height": 16.028575959339577,
+        "slot_radius": 3.8319589935580023,
+        "slot_spacing": 0.7445115484102567,
+        "status": "completed",
+        "avg_force": 27.575546181818186,
+        "avg_power": 869.8561718181817,
+        "accepted": false
+    },
+    {
+        "iteration": 20,
+        "slot_height": 15.161654454397429,
+        "slot_radius": 8.966424421523744,
+        "slot_spacing": 1.868528592722151,
+        "status": "completed",
+        "avg_force": 57.29016027272728,
+        "avg_power": 2546.551572,
+        "accepted": false
+    },
+    {
+        "iteration": 21,
+        "slot_height": 4.18299850352288,
+        "slot_radius": 6.67074833608837,
+        "slot_spacing": 2.132320158031403,
+        "status": "completed",
+        "avg_force": 21.202444818181814,
+        "avg_power": 467.17020090909085,
+        "accepted": false
+    },
+    {
+        "iteration": 22,
+        "slot_height": 2.642385198482797,
+        "slot_radius": 11.924438509989766,
+        "slot_spacing": 13.533037234141823,
+        "status": "completed",
+        "avg_force": 7.174323545454545,
+        "avg_power": 673.4535494545454,
+        "accepted": false
+    },
+    {
+        "iteration": 23,
+        "slot_height": 17.370714024611427,
+        "slot_radius": 7.186446007905793,
+        "slot_spacing": 14.733252775580002,
+        "status": "completed",
+        "avg_force": 40.570646909090904,
+        "avg_power": 2140.328473363636,
+        "accepted": false
+    },
+    {
+        "iteration": 24,
+        "slot_height": 13.213616596431072,
+        "slot_radius": 13.125144828603506,
+        "slot_spacing": 20.09609914758676,
+        "status": "completed",
+        "avg_force": 46.25618963636364,
+        "avg_power": 3892.508266,
+        "accepted": false
+    },
+    {
+        "iteration": 25,
+        "slot_height": 14.924404070641538,
+        "slot_radius": 4.379496408777914,
+        "slot_spacing": 13.404382336992091,
+        "status": "completed",
+        "avg_force": 23.54982727272727,
+        "avg_power": 956.2924742727272,
+        "accepted": false
+    },
+    {
+        "iteration": 26,
+        "slot_height": 6.568262115861696,
+        "slot_radius": 20.642119388134873,
+        "slot_spacing": 11.450841015381581,
+        "status": "completed",
+        "avg_force": 36.990391090909085,
+        "avg_power": 3954.4549481818176,
+        "accepted": false
+    },
+    {
+        "iteration": 27,
+        "slot_height": 16.71230182403847,
+        "slot_radius": 2.2915125917212995,
+        "slot_spacing": 0.46086612045593095,
+        "status": "completed",
+        "avg_force": 15.966016090909092,
+        "avg_power": 490.2033466363636,
+        "accepted": false
+    },
+    {
+        "iteration": 28,
+        "slot_height": 19.91772091124111,
+        "slot_radius": 12.258281401881423,
+        "slot_spacing": 2.014912861179595,
+        "status": "completed",
+        "avg_force": 44.57629245454545,
+        "avg_power": 5290.8309743636355,
+        "accepted": false
+    },
+    {
+        "iteration": 29,
+        "slot_height": 10.924994281595216,
+        "slot_radius": 5.757799949927702,
+        "slot_spacing": 12.952988607061343,
+        "status": "completed",
+        "avg_force": 18.02201645454545,
+        "avg_power": 997.8839555454546,
+        "accepted": false
+    },
+    {
+        "iteration": 30,
+        "slot_height": 12.993861610291257,
+        "slot_radius": 11.202145299829166,
+        "slot_spacing": 10.555529442522879,
+        "status": "completed",
+        "avg_force": 23.10911,
+        "avg_power": 3016.454116363637,
+        "accepted": false
+    },
+    {
+        "iteration": 31,
+        "slot_height": 5.879270919452271,
+        "slot_radius": 13.41686019742995,
+        "slot_spacing": 9.827851110599353,
+        "status": "completed",
+        "avg_force": 35.086780818181815,
+        "avg_power": 1791.309988090909,
+        "accepted": false
+    },
+    {
+        "iteration": 32,
+        "slot_height": 0.4088331863760746,
+        "slot_radius": 2.9036452809213165,
+        "slot_spacing": 1.872007924903923,
+        "status": "completed",
+        "avg_force": 0.9443080909090908,
+        "avg_power": 17.09178381818182,
+        "accepted": true
+    },
+    {
+        "iteration": 33,
+        "slot_height": 0.4918423183491556,
+        "slot_radius": 5.841663226786319,
+        "slot_spacing": 16.909955211578907,
+        "status": "completed",
+        "avg_force": 0.5020789090909091,
+        "avg_power": 46.502624272727275,
+        "accepted": true
+    },
+    {
+        "iteration": 34,
+        "slot_height": 7.443316523504041,
+        "slot_radius": 8.943430780100336,
+        "slot_spacing": 14.629450295177936,
+        "status": "completed",
+        "avg_force": 9.996459000000002,
+        "avg_power": 1246.7691913636363,
+        "accepted": false
+    },
+    {
+        "iteration": 35,
+        "slot_height": 1.080092100349614,
+        "slot_radius": 24.199978400563324,
+        "slot_spacing": 15.739085972129772,
+        "status": "completed",
+        "avg_force": 5.180578363636363,
+        "avg_power": 845.3926302727272,
+        "accepted": false
+    },
+    {
+        "iteration": 36,
+        "slot_height": 5.78624335753525,
+        "slot_radius": 25.038559684532157,
+        "slot_spacing": 17.587527851793787,
+        "status": "completed",
+        "avg_force": 12.79001918181818,
+        "avg_power": 4795.984973545455,
+        "accepted": false
+    },
+    {
+        "iteration": 37,
+        "slot_height": 10.999477599491728,
+        "slot_radius": 8.206763486471651,
+        "slot_spacing": 10.067991277578002,
+        "status": "completed",
+        "avg_force": 9.283308636363637,
+        "avg_power": 1630.5714983636362,
+        "accepted": false
+    },
+    {
+        "iteration": 38,
+        "slot_height": 4.965154027760823,
+        "slot_radius": 17.763574916067103,
+        "slot_spacing": 16.311381566142753,
+        "status": "completed",
+        "avg_force": 7.032901999999999,
+        "avg_power": 2345.8974150909094,
+        "accepted": false
+    },
+    {
+        "iteration": 39,
+        "slot_height": 4.001180772560966,
+        "slot_radius": 5.850324123650301,
+        "slot_spacing": 14.936339518586106,
+        "status": "completed",
+        "avg_force": 8.747588090909092,
+        "avg_power": 374.0626264545454,
+        "accepted": false
+    },
+    {
+        "iteration": 40,
+        "slot_height": 0.9488865700011613,
+        "slot_radius": 0.41855908812863607,
+        "slot_spacing": 16.29527908552781,
+        "status": "completed",
+        "avg_force": 0.21970427272727272,
+        "avg_power": 5.178849909090908,
+        "accepted": true
+    },
+    {
+        "iteration": 41,
+        "slot_height": 20.100685475799526,
+        "slot_radius": 7.341525401612241,
+        "slot_spacing": 11.885548589422704,
+        "status": "completed",
+        "avg_force": 36.53177045454545,
+        "avg_power": 2550.841215181818,
+        "accepted": false
+    },
+    {
+        "iteration": 42,
+        "slot_height": 16.748227310692297,
+        "slot_radius": 10.852856900432457,
+        "slot_spacing": 8.004684111733914,
+        "status": "completed",
+        "avg_force": 27.02353709090909,
+        "avg_power": 3712.018300727273,
+        "accepted": false
+    },
+    {
+        "iteration": 43,
+        "slot_height": 8.928791609273455,
+        "slot_radius": 3.9606098793316136,
+        "slot_spacing": 8.178169027459852,
+        "status": "completed",
+        "avg_force": 11.944009,
+        "avg_power": 504.1900448181818,
+        "accepted": false
+    },
+    {
+        "iteration": 44,
+        "slot_height": 1.5751425036560112,
+        "slot_radius": 7.430501079835996,
+        "slot_spacing": 7.252268563582068,
+        "status": "completed",
+        "avg_force": 4.066868636363636,
+        "avg_power": 204.60090036363636,
+        "accepted": false
+    },
+    {
+        "iteration": 45,
+        "slot_height": 20.713017128631133,
+        "slot_radius": 10.968854975657667,
+        "slot_spacing": 10.973315538507684,
+        "status": "completed",
+        "avg_force": 50.28894672727272,
+        "avg_power": 4662.377457181818,
+        "accepted": false
+    },
+    {
+        "iteration": 46,
+        "slot_height": 21.10347586636824,
+        "slot_radius": 10.771504810241904,
+        "slot_spacing": 0.9696436893898104,
+        "status": "completed",
+        "avg_force": 37.29315409090909,
+        "avg_power": 4624.6924974545445,
+        "accepted": false
+    },
+    {
+        "iteration": 47,
+        "slot_height": 14.143716892105509,
+        "slot_radius": 3.330945836775485,
+        "slot_spacing": 15.786750849274945,
+        "status": "completed",
+        "avg_force": 18.838517090909093,
+        "avg_power": 645.7322546363638,
+        "accepted": false
+    },
+    {
+        "iteration": 48,
+        "slot_height": 17.907252848207595,
+        "slot_radius": 16.740085752342914,
+        "slot_spacing": 15.203261477100458,
+        "status": "completed",
+        "avg_force": 58.64916445454546,
+        "avg_power": 7694.585095363636,
+        "accepted": false
+    },
+    {
+        "iteration": 49,
+        "slot_height": 19.28305981610415,
+        "slot_radius": 3.1441742337366163,
+        "slot_spacing": 12.155001920150719,
+        "status": "completed",
+        "avg_force": 20.261225727272723,
+        "avg_power": 821.0149570909092,
+        "accepted": false
+    },
+    {
+        "iteration": 50,
+        "slot_height": 10.772596496809447,
+        "slot_radius": 6.308756142510963,
+        "slot_spacing": 10.011012274502832,
+        "status": "completed",
+        "avg_force": 6.968772636363635,
+        "avg_power": 1112.8317884545454,
+        "accepted": false
+    },
+    {
+        "iteration": 51,
+        "slot_height": 18.049882129299544,
+        "slot_radius": 10.143809677278766,
+        "slot_spacing": 13.742878267373575,
+        "status": "completed",
+        "avg_force": 45.85937245454546,
+        "avg_power": 3622.2415805454552,
+        "accepted": false
+    },
+    {
+        "iteration": 52,
+        "slot_height": 16.580631038754838,
+        "slot_radius": 14.63229635798912,
+        "slot_spacing": 14.780109538198257,
+        "status": "completed",
+        "avg_force": 53.96103963636363,
+        "avg_power": 5772.517400363637,
+        "accepted": false
+    },
+    {
+        "iteration": 53,
+        "slot_height": 9.037540730960481,
+        "slot_radius": 19.881243657997448,
+        "slot_spacing": 4.5193529363911935,
+        "status": "completed",
+        "avg_force": 74.75179581818183,
+        "avg_power": 5118.681773636365,
+        "accepted": false
+    },
+    {
+        "iteration": 54,
+        "slot_height": 22.519360446002388,
+        "slot_radius": 6.8110274616830235,
+        "slot_spacing": 8.052998591422003,
+        "status": "completed",
+        "avg_force": 41.017002000000005,
+        "avg_power": 2576.973976454545,
+        "accepted": false
+    },
+    {
+        "iteration": 55,
+        "slot_height": 13.82868296713779,
+        "slot_radius": 1.539135184500795,
+        "slot_spacing": 6.814751301912882,
+        "status": "completed",
+        "avg_force": 3.464557545454545,
+        "avg_power": 258.31173854545455,
+        "accepted": false
+    },
+    {
+        "iteration": 56,
+        "slot_height": 14.933927154116725,
+        "slot_radius": 12.61941411080458,
+        "slot_spacing": 7.63255651126049,
+        "status": "completed",
+        "avg_force": 19.156269272727272,
+        "avg_power": 4145.2659141818185,
+        "accepted": false
+    },
+    {
+        "iteration": 57,
+        "slot_height": 9.959466783364919,
+        "slot_radius": 19.19699702414139,
+        "slot_spacing": 11.601612768903774,
+        "status": "completed",
+        "avg_force": 26.84611209090909,
+        "avg_power": 5327.566067000001,
+        "accepted": false
+    },
+    {
+        "iteration": 58,
+        "slot_height": 2.5327110004339066,
+        "slot_radius": 5.712971553564151,
+        "slot_spacing": 8.090356533132956,
+        "status": "completed",
+        "avg_force": 6.882861727272728,
+        "avg_power": 228.98931927272727,
+        "accepted": false
+    },
+    {
+        "iteration": 59,
+        "slot_height": 6.374771720144015,
+        "slot_radius": 5.848335035071464,
+        "slot_spacing": 4.7474031879426235,
+        "status": "completed",
+        "avg_force": 21.836587636363635,
+        "avg_power": 595.4561922727273,
+        "accepted": false
+    },
+    {
+        "iteration": 60,
+        "slot_height": 0.7302201905719614,
+        "slot_radius": 20.266373976358956,
+        "slot_spacing": 18.976848049953933,
+        "status": "completed",
+        "avg_force": 1.9810542727272726,
+        "avg_power": 427.22436381818176,
+        "accepted": false
+    },
+    {
+        "iteration": 61,
+        "slot_height": 16.086388754981478,
+        "slot_radius": 15.545756230404496,
+        "slot_spacing": 10.134663347555906,
+        "status": "completed",
+        "avg_force": 36.27262809090909,
+        "avg_power": 6154.305148181819,
+        "accepted": false
+    },
+    {
+        "iteration": 62,
+        "slot_height": 3.0250470795366975,
+        "slot_radius": 2.226092669632851,
+        "slot_spacing": 13.603227258303274,
+        "status": "completed",
+        "avg_force": 2.3062661818181813,
+        "avg_power": 86.02323172727273,
+        "accepted": true
+    },
+    {
+        "iteration": 63,
+        "slot_height": 9.180030324930675,
+        "slot_radius": 9.614209955040538,
+        "slot_spacing": 1.891888198615485,
+        "status": "completed",
+        "avg_force": 27.886814909090905,
+        "avg_power": 1705.8363834545453,
+        "accepted": false
+    },
+    {
+        "iteration": 64,
+        "slot_height": 8.126520531804932,
+        "slot_radius": 5.623000814621939,
+        "slot_spacing": 9.487115244589578,
+        "status": "completed",
+        "avg_force": 15.103488999999998,
+        "avg_power": 720.2248131818183,
+        "accepted": false
+    },
+    {
+        "iteration": 65,
+        "slot_height": 22.552818426381762,
+        "slot_radius": 26.261102658831216,
+        "slot_spacing": 17.33492289060067,
+        "status": "completed",
+        "avg_force": 85.58734954545456,
+        "avg_power": 20239.980147454542,
+        "accepted": false
+    },
+    {
+        "iteration": 66,
+        "slot_height": 12.71570574823451,
+        "slot_radius": 2.904368832184616,
+        "slot_spacing": 11.418328864738005,
+        "status": "completed",
+        "avg_force": 12.201851181818181,
+        "avg_power": 492.57794999999993,
+        "accepted": false
+    },
+    {
+        "iteration": 67,
+        "slot_height": 9.11336841113045,
+        "slot_radius": 13.987699910778852,
+        "slot_spacing": 9.44183994101786,
+        "status": "completed",
+        "avg_force": 29.437910909090906,
+        "avg_power": 2961.352870181818,
+        "accepted": false
+    },
+    {
+        "iteration": 68,
+        "slot_height": 3.8749261995884416,
+        "slot_radius": 2.901331277788139,
+        "slot_spacing": 3.6625762650586404,
+        "status": "completed",
+        "avg_force": 6.066545363636364,
+        "avg_power": 150.69504409090908,
+        "accepted": true
+    },
+    {
+        "iteration": 69,
+        "slot_height": 0.7022902354319989,
+        "slot_radius": 3.182214871669726,
+        "slot_spacing": 4.712759729231938,
+        "status": "completed",
+        "avg_force": 2.057625545454546,
+        "avg_power": 31.656823090909082,
+        "accepted": true
+    },
+    {
+        "iteration": 70,
+        "slot_height": 0.01892270241644356,
+        "slot_radius": 15.287199111406718,
+        "slot_spacing": 7.8510074504078,
+        "status": "completed",
+        "avg_force": 0.23662136363636363,
+        "avg_power": 8.534584454545454,
+        "accepted": true
+    },
+    {
+        "iteration": 71,
+        "slot_height": 3.732650296439068,
+        "slot_radius": 13.312377369581778,
+        "slot_spacing": 3.806866289903158,
+        "status": "completed",
+        "avg_force": 17.806710000000002,
+        "avg_power": 1124.2029007272727,
+        "accepted": false
+    },
+    {
+        "iteration": 72,
+        "slot_height": 5.74691914929043,
+        "slot_radius": 14.398015340922479,
+        "slot_spacing": 0.6588813816802193,
+        "status": "completed",
+        "avg_force": 23.614864999999998,
+        "avg_power": 1951.2803807272728,
+        "accepted": false
+    },
+    {
+        "iteration": 73,
+        "slot_height": 2.4627295286414936,
+        "slot_radius": 8.163542831156319,
+        "slot_spacing": 5.757642287141102,
+        "status": "completed",
+        "avg_force": 8.125958727272726,
+        "avg_power": 363.6763933636364,
+        "accepted": false
+    },
+    {
+        "iteration": 74,
+        "slot_height": 1.8113748603864193,
+        "slot_radius": 14.254220557139817,
+        "slot_spacing": 4.101129415018031,
+        "status": "completed",
+        "avg_force": 7.409455727272726,
+        "avg_power": 607.6511191818182,
+        "accepted": false
+    },
+    {
+        "iteration": 75,
+        "slot_height": 6.151100531054201,
+        "slot_radius": 12.219568501860511,
+        "slot_spacing": 2.443450327486835,
+        "status": "completed",
+        "avg_force": 30.46391672727273,
+        "avg_power": 1626.1267137272728,
+        "accepted": false
+    },
+    {
+        "iteration": 76,
+        "slot_height": 8.16528957438658,
+        "slot_radius": 0.10640829963063148,
+        "slot_spacing": 6.132137733105357,
+        "status": "completed",
+        "avg_force": 0.5468235454545455,
+        "avg_power": 10.097351090909092,
+        "accepted": true
+    },
+    {
+        "iteration": 77,
+        "slot_height": 9.335415232555658,
+        "slot_radius": 16.179787831293265,
+        "slot_spacing": 2.408463150614616,
+        "status": "completed",
+        "avg_force": 88.52793163636365,
+        "avg_power": 3801.6676781818173,
+        "accepted": false
+    },
+    {
+        "iteration": 78,
+        "slot_height": 5.250805229565858,
+        "slot_radius": 11.842972598113937,
+        "slot_spacing": 3.384496113379619,
+        "status": "completed",
+        "avg_force": 31.58259109090909,
+        "avg_power": 1324.9202082727272,
+        "accepted": false
+    },
+    {
+        "iteration": 79,
+        "slot_height": 5.692872153406598,
+        "slot_radius": 5.3027536463686475,
+        "slot_spacing": 2.445279464830642,
+        "status": "completed",
+        "avg_force": 22.659926363636362,
+        "avg_power": 467.2153515454545,
+        "accepted": false
+    },
+    {
+        "iteration": 80,
+        "slot_height": 0.19194805752268573,
+        "slot_radius": 9.64962315135242,
+        "slot_spacing": 2.4836436264316806,
+        "status": "completed",
+        "avg_force": 0.8352710909090909,
+        "avg_power": 36.11374472727273,
+        "accepted": true
+    },
+    {
+        "iteration": 81,
+        "slot_height": 11.320773890592848,
+        "slot_radius": 0.21829481783637306,
+        "slot_spacing": 3.8710761113107557,
+        "status": "completed",
+        "avg_force": 0.9611746363636363,
+        "avg_power": 28.024342909090908,
+        "accepted": true
+    },
+    {
+        "iteration": 82,
+        "slot_height": 3.6355613656305494,
+        "slot_radius": 11.017644457337777,
+        "slot_spacing": 6.118689608021025,
+        "status": "completed",
+        "avg_force": 18.398964909090907,
+        "avg_power": 825.5082832727275,
+        "accepted": false
+    },
+    {
+        "iteration": 83,
+        "slot_height": 6.270519619092136,
+        "slot_radius": 0.5673353676464821,
+        "slot_spacing": 6.379774675656299,
+        "status": "completed",
+        "avg_force": 2.0540540000000003,
+        "avg_power": 40.61692381818181,
+        "accepted": true
+    },
+    {
+        "iteration": 84,
+        "slot_height": 1.7897712594219137,
+        "slot_radius": 1.3353758396588722,
+        "slot_spacing": 8.132630391288231,
+        "status": "completed",
+        "avg_force": 2.0578263636363636,
+        "avg_power": 29.19622290909091,
+        "accepted": true
+    },
+    {
+        "iteration": 85,
+        "slot_height": 3.2655809519256995,
+        "slot_radius": 6.324553864587756,
+        "slot_spacing": 2.5640295383787945,
+        "status": "completed",
+        "avg_force": 19.15509509090909,
+        "avg_power": 338.1495721818182,
+        "accepted": false
+    },
+    {
+        "iteration": 86,
+        "slot_height": 1.857358429369806,
+        "slot_radius": 12.132178331381125,
+        "slot_spacing": 4.640524141032926,
+        "status": "completed",
+        "avg_force": 7.860719454545454,
+        "avg_power": 488.09061172727274,
+        "accepted": false
+    },
+    {
+        "iteration": 87,
+        "slot_height": 2.737339804403613,
+        "slot_radius": 14.430038056705087,
+        "slot_spacing": 6.795689769610248,
+        "status": "completed",
+        "avg_force": 20.903921454545454,
+        "avg_power": 934.1134001818181,
+        "accepted": false
+    },
+    {
+        "iteration": 88,
+        "slot_height": 11.06155603729226,
+        "slot_radius": 2.682518487199835,
+        "slot_spacing": 10.158749685619801,
+        "status": "completed",
+        "avg_force": 4.655386090909091,
+        "avg_power": 390.3398268181818,
+        "accepted": false
+    },
+    {
+        "iteration": 89,
+        "slot_height": 1.9072641119219313,
+        "slot_radius": 12.457873958830344,
+        "slot_spacing": 7.823964420117341,
+        "status": "completed",
+        "avg_force": 14.319461454545456,
+        "avg_power": 520.1768082727272,
+        "accepted": false
+    },
+    {
+        "iteration": 90,
+        "slot_height": 5.5993240420183685,
+        "slot_radius": 7.483740341597976,
+        "slot_spacing": 4.688623379168551,
+        "status": "completed",
+        "avg_force": 8.431697999999999,
+        "avg_power": 729.2373380909091,
+        "accepted": false
+    },
+    {
+        "iteration": 91,
+        "slot_height": 3.4633110747610236,
+        "slot_radius": 14.784061118483933,
+        "slot_spacing": 8.49355744733642,
+        "status": "completed",
+        "avg_force": 7.379973727272727,
+        "avg_power": 1225.8661783636364,
+        "accepted": false
+    },
+    {
+        "iteration": 92,
+        "slot_height": 10.40176270111178,
+        "slot_radius": 6.121905788030677,
+        "slot_spacing": 6.888426336531205,
+        "status": "completed",
+        "avg_force": 17.658983636363637,
+        "avg_power": 1031.5699114545453,
+        "accepted": false
+    },
+    {
+        "iteration": 93,
+        "slot_height": 10.719853607836491,
+        "slot_radius": 11.626009659641605,
+        "slot_spacing": 7.2136327603369175,
+        "status": "completed",
+        "avg_force": 27.875324,
+        "avg_power": 2630.654329,
+        "accepted": false
+    },
+    {
+        "iteration": 94,
+        "slot_height": 5.013663789649472,
+        "slot_radius": 10.368278422834374,
+        "slot_spacing": 4.186819694035193,
+        "status": "completed",
+        "avg_force": 22.78694990909091,
+        "avg_power": 1040.0866790909092,
+        "accepted": false
+    },
+    {
+        "iteration": 95,
+        "slot_height": 6.6110048063640665,
+        "slot_radius": 1.1320597954001625,
+        "slot_spacing": 8.887918205439277,
+        "status": "completed",
+        "avg_force": 4.0315508181818185,
+        "avg_power": 88.99146609090907,
+        "accepted": true
+    },
+    {
+        "iteration": 96,
+        "slot_height": 12.715513355161333,
+        "slot_radius": 2.6957079566567077,
+        "slot_spacing": 6.1097279224047805,
+        "status": "completed",
+        "avg_force": 6.029514727272726,
+        "avg_power": 450.44315772727276,
+        "accepted": false
+    },
+    {
+        "iteration": 97,
+        "slot_height": 9.129390900577842,
+        "slot_radius": 3.017151944368549,
+        "slot_spacing": 7.101172289626382,
+        "status": "completed",
+        "avg_force": 10.489910272727272,
+        "avg_power": 369.48918672727274,
+        "accepted": false
+    },
+    {
+        "iteration": 98,
+        "slot_height": 4.256870075904688,
+        "slot_radius": 13.747771208588887,
+        "slot_spacing": 1.3411535600383988,
+        "status": "completed",
+        "avg_force": 24.379502272727276,
+        "avg_power": 1347.5519734545455,
+        "accepted": false
+    },
+    {
+        "iteration": 99,
+        "slot_height": 11.675534613971648,
+        "slot_radius": 12.369599537946963,
+        "slot_spacing": 9.815270709996684,
+        "status": "completed",
+        "avg_force": 19.277290636363634,
+        "avg_power": 3145.3660322727274,
+        "accepted": false
+    },
+    {
+        "iteration": 100,
+        "slot_height": 1.797538043540809,
+        "slot_radius": 4.928043856220565,
+        "slot_spacing": 7.987885791250001,
+        "status": "completed",
+        "avg_force": 6.9538780000000004,
+        "avg_power": 134.12893699999998,
+        "accepted": true
+    },
+    {
+        "iteration": 101,
+        "slot_height": 12.425863945690542,
+        "slot_radius": 14.163104324169446,
+        "slot_spacing": 1.199931803318058,
+        "status": "completed",
+        "avg_force": 57.70811627272728,
+        "avg_power": 4113.3225800909095,
+        "accepted": false
+    },
+    {
+        "iteration": 102,
+        "slot_height": 11.899785971959082,
+        "slot_radius": 0.03481710997072884,
+        "slot_spacing": 0.35603086948715684,
+        "status": "completed",
+        "avg_force": 0.2944248181818182,
+        "avg_power": 5.018820272727272,
+        "accepted": true
+    },
+    {
+        "iteration": 103,
+        "slot_height": 2.3360542841049288,
+        "slot_radius": 2.893373980161031,
+        "slot_spacing": 8.686606081092892,
+        "status": "completed",
+        "avg_force": 3.199016818181818,
+        "avg_power": 90.05818790909089,
+        "accepted": true
+    },
+    {
+        "iteration": 104,
+        "slot_height": 10.927067506664896,
+        "slot_radius": 13.862399317224178,
+        "slot_spacing": 9.642262019013838,
+        "status": "completed",
+        "avg_force": 22.560389818181818,
+        "avg_power": 3499.819612727273,
+        "accepted": false
+    },
+    {
+        "iteration": 105,
+        "slot_height": 12.247933161241223,
+        "slot_radius": 8.660623735781783,
+        "slot_spacing": 2.5873920347805948,
+        "status": "completed",
+        "avg_force": 33.322217090909085,
+        "avg_power": 1957.9854800909088,
+        "accepted": false
+    },
+    {
+        "iteration": 106,
+        "slot_height": 4.48887728336163,
+        "slot_radius": 2.2248692165121664,
+        "slot_spacing": 6.259337895071721,
+        "status": "completed",
+        "avg_force": 3.282762454545455,
+        "avg_power": 127.54071536363637,
+        "accepted": true
+    },
+    {
+        "iteration": 107,
+        "slot_height": 3.2150226860618756,
+        "slot_radius": 7.218896838292899,
+        "slot_spacing": 6.391218154747306,
+        "status": "completed",
+        "avg_force": 14.106779181818183,
+        "avg_power": 398.73434699999996,
+        "accepted": false
+    },
+    {
+        "iteration": 108,
+        "slot_height": 11.018611754661839,
+        "slot_radius": 4.1236299836117745,
+        "slot_spacing": 5.07792601296054,
+        "status": "completed",
+        "avg_force": 14.544112909090906,
+        "avg_power": 655.5858710000001,
+        "accepted": false
+    },
+    {
+        "iteration": 109,
+        "slot_height": 0.5208963106102886,
+        "slot_radius": 15.591578425102284,
+        "slot_spacing": 3.4201645028338543,
+        "status": "completed",
+        "avg_force": 2.8199814545454545,
+        "avg_power": 201.36166063636364,
+        "accepted": false
+    },
+    {
+        "iteration": 110,
+        "slot_height": 10.09980198619954,
+        "slot_radius": 5.05416494036716,
+        "slot_spacing": 8.606293046864767,
+        "status": "completed",
+        "avg_force": 12.104490545454546,
+        "avg_power": 778.7655378181819,
+        "accepted": false
+    },
+    {
+        "iteration": 111,
+        "slot_height": 2.493731861549793,
+        "slot_radius": 11.20055035004949,
+        "slot_spacing": 3.347641342257214,
+        "status": "completed",
+        "avg_force": 23.74649990909091,
+        "avg_power": 580.5126591818181,
+        "accepted": false
+    },
+    {
+        "iteration": 112,
+        "slot_height": 8.143947588105535,
+        "slot_radius": 5.7893489207667574,
+        "slot_spacing": 6.935179263259733,
+        "status": "completed",
+        "avg_force": 22.41907636363636,
+        "avg_power": 749.2790223636365,
+        "accepted": false
+    },
+    {
+        "iteration": 113,
+        "slot_height": 5.075448270817889,
+        "slot_radius": 1.782802306187084,
+        "slot_spacing": 3.56887957367885,
+        "status": "completed",
+        "avg_force": 7.109653727272728,
+        "avg_power": 112.08158209090908,
+        "accepted": true
+    },
+    {
+        "iteration": 114,
+        "slot_height": 0.7490570124509262,
+        "slot_radius": 2.454312337109723,
+        "slot_spacing": 6.995675262523214,
+        "status": "completed",
+        "avg_force": 2.0655649999999994,
+        "avg_power": 24.111242090909094,
+        "accepted": true
+    },
+    {
+        "iteration": 115,
+        "slot_height": 9.692874415704734,
+        "slot_radius": 14.13271358280235,
+        "slot_spacing": 8.24269093631383,
+        "status": "completed",
+        "avg_force": 32.53924563636364,
+        "avg_power": 3198.5619060909085,
+        "accepted": false
+    },
+    {
+        "iteration": 116,
+        "slot_height": 6.920295101621139,
+        "slot_radius": 2.3055552385806966,
+        "slot_spacing": 1.0679796318833794,
+        "status": "completed",
+        "avg_force": 10.76714590909091,
+        "avg_power": 204.327773,
+        "accepted": false
+    },
+    {
+        "iteration": 117,
+        "slot_height": 1.5473254289209755,
+        "slot_radius": 7.454397235724334,
+        "slot_spacing": 1.9191609693705087,
+        "status": "completed",
+        "avg_force": 10.475487818181817,
+        "avg_power": 200.79603799999998,
+        "accepted": false
+    },
+    {
+        "iteration": 118,
+        "slot_height": 4.5190209023433034,
+        "slot_radius": 2.668777638124038,
+        "slot_spacing": 0.6510429190224194,
+        "status": "completed",
+        "avg_force": 7.286430454545454,
+        "avg_power": 159.04844618181818,
+        "accepted": true
+    },
+    {
+        "iteration": 119,
+        "slot_height": 7.108411852165911,
+        "slot_radius": 11.366347014372824,
+        "slot_spacing": 4.347075105897423,
+        "status": "completed",
+        "avg_force": 32.75283445454546,
+        "avg_power": 1688.2088967272728,
+        "accepted": false
+    },
+    {
+        "iteration": 120,
+        "slot_height": 1.3630955594765832,
+        "slot_radius": 3.619063769208697,
+        "slot_spacing": 3.1673593933206368,
+        "status": "completed",
+        "avg_force": 2.777008909090909,
+        "avg_power": 70.02057145454546,
+        "accepted": true
+    },
+    {
+        "iteration": 121,
+        "slot_height": 4.453117975252304,
+        "slot_radius": 7.777778010365824,
+        "slot_spacing": 5.215027090330435,
+        "status": "completed",
+        "avg_force": 15.273891818181818,
+        "avg_power": 612.4012419999999,
+        "accepted": false
+    },
+    {
+        "iteration": 122,
+        "slot_height": 0.4697915814209579,
+        "slot_radius": 4.167430520970853,
+        "slot_spacing": 1.8750747448876754,
+        "status": "completed",
+        "avg_force": 1.1585015454545455,
+        "avg_power": 28.65445327272727,
+        "accepted": true
+    },
+    {
+        "iteration": 123,
+        "slot_height": 7.515494890881813,
+        "slot_radius": 11.142549383692476,
+        "slot_spacing": 2.2184699633667524,
+        "status": "completed",
+        "avg_force": 52.28750027272727,
+        "avg_power": 1732.3584999090906,
+        "accepted": false
+    },
+    {
+        "iteration": 124,
+        "slot_height": 3.6418453183585093,
+        "slot_radius": 8.666376348858305,
+        "slot_spacing": 0.7445896103812972,
+        "status": "completed",
+        "avg_force": 13.936941272727273,
+        "avg_power": 583.8963910909091,
+        "accepted": false
+    },
+    {
+        "iteration": 125,
+        "slot_height": 5.249447149321446,
+        "slot_radius": 2.116522289993065,
+        "slot_spacing": 2.7393749542469825,
+        "status": "completed",
+        "avg_force": 11.250122090909091,
+        "avg_power": 141.28663245454544,
+        "accepted": true
+    },
+    {
+        "iteration": 126,
+        "slot_height": 2.1690366592065518,
+        "slot_radius": 5.955841119035535,
+        "slot_spacing": 3.560752774978602,
+        "status": "completed",
+        "avg_force": 15.753431454545451,
+        "avg_power": 207.79299336363638,
+        "accepted": false
+    },
+    {
+        "iteration": 127,
+        "slot_height": 2.2728602977579255,
+        "slot_radius": 3.778644599148441,
+        "slot_spacing": 0.44122082662202894,
+        "status": "completed",
+        "avg_force": 5.006094909090909,
+        "avg_power": 121.73166990909091,
+        "accepted": true
+    },
+    {
+        "iteration": 128,
+        "slot_height": 7.879639674204734,
+        "slot_radius": 3.139085269482517,
+        "slot_spacing": 2.072840843932783,
+        "status": "completed",
+        "avg_force": 17.75699263636364,
+        "avg_power": 334.6090045454546,
+        "accepted": false
+    },
+    {
+        "iteration": 129,
+        "slot_height": 7.256707406221359,
+        "slot_radius": 6.12043577503568,
+        "slot_spacing": 1.3581924397050098,
+        "status": "completed",
+        "avg_force": 15.504498727272727,
+        "avg_power": 719.7732944545455,
+        "accepted": false
+    },
+    {
+        "iteration": 130,
+        "slot_height": 0.9855084014837416,
+        "slot_radius": 9.115687530492208,
+        "slot_spacing": 1.986170775595905,
+        "status": "completed",
+        "avg_force": 7.312079,
+        "avg_power": 169.51109063636363,
+        "accepted": true
+    },
+    {
+        "iteration": 131,
+        "slot_height": 0.33618620515143016,
+        "slot_radius": 4.958632282046769,
+        "slot_spacing": 3.8669050924408896,
+        "status": "completed",
+        "avg_force": 1.4890543636363638,
+        "avg_power": 26.520656909090906,
+        "accepted": true
+    },
+    {
+        "iteration": 132,
+        "slot_height": 1.4820361181091166,
+        "slot_radius": 8.737465872937083,
+        "slot_spacing": 3.8476748214544676,
+        "status": "completed",
+        "avg_force": 5.3838277272727275,
+        "avg_power": 239.98321172727273,
+        "accepted": false
+    },
+    {
+        "iteration": 133,
+        "slot_height": 7.227115838961943,
+        "slot_radius": 9.233366701820866,
+        "slot_spacing": 0.5499848179282492,
+        "status": "completed",
+        "avg_force": 34.08660954545454,
+        "avg_power": 1266.2428667272727,
+        "accepted": false
+    },
+    {
+        "iteration": 134,
+        "slot_height": 1.2161167762765597,
+        "slot_radius": 8.786917749960011,
+        "slot_spacing": 4.205224364641893,
+        "status": "completed",
+        "avg_force": 5.206688818181818,
+        "avg_power": 199.37932636363632,
+        "accepted": true
+    },
+    {
+        "iteration": 135,
+        "slot_height": 1.885372793105581,
+        "slot_radius": 7.0588575574169985,
+        "slot_spacing": 3.362342264202476,
+        "status": "completed",
+        "avg_force": 4.646026727272727,
+        "avg_power": 228.5056290909091,
+        "accepted": false
+    },
+    {
+        "iteration": 136,
+        "slot_height": 7.813875751145362,
+        "slot_radius": 5.433382782728041,
+        "slot_spacing": 1.0334260375048503,
+        "status": "completed",
+        "avg_force": 40.12779645454546,
+        "avg_power": 661.5842804545455,
+        "accepted": false
+    },
+    {
+        "iteration": 137,
+        "slot_height": 1.2548414525132405,
+        "slot_radius": 4.426002229344709,
+        "slot_spacing": 4.104571671955832,
+        "status": "completed",
+        "avg_force": 3.5259337272727267,
+        "avg_power": 82.2006619090909,
+        "accepted": true
+    },
+    {
+        "iteration": 138,
+        "slot_height": 1.6740402957077483,
+        "slot_radius": 6.464528127819747,
+        "slot_spacing": 3.303736711847163,
+        "status": "completed",
+        "avg_force": 4.262183272727273,
+        "avg_power": 179.02898963636363,
+        "accepted": true
+    },
+    {
+        "iteration": 139,
+        "slot_height": 6.879081936321652,
+        "slot_radius": 8.723419697107534,
+        "slot_spacing": 0.8941634711270303,
+        "status": "completed",
+        "avg_force": 34.65512472727273,
+        "avg_power": 1112.6812429999998,
+        "accepted": false
+    },
+    {
+        "iteration": 140,
+        "slot_height": 0.5472554548321438,
+        "slot_radius": 2.7927709888634134,
+        "slot_spacing": 4.716847557754801,
+        "status": "completed",
+        "avg_force": 1.568053090909091,
+        "avg_power": 21.591348636363634,
+        "accepted": true
+    },
+    {
+        "iteration": 141,
+        "slot_height": 2.4317892644924175,
+        "slot_radius": 8.157604718146846,
+        "slot_spacing": 3.31072144600388,
+        "status": "completed",
+        "avg_force": 19.996781000000002,
+        "avg_power": 357.26462154545453,
+        "accepted": false
+    },
+    {
+        "iteration": 142,
+        "slot_height": 1.6231416816891255,
+        "slot_radius": 9.97295441331017,
+        "slot_spacing": 1.7827759823259097,
+        "status": "completed",
+        "avg_force": 11.264706363636362,
+        "avg_power": 318.4237266363636,
+        "accepted": false
+    },
+    {
+        "iteration": 143,
+        "slot_height": 3.9205577617787952,
+        "slot_radius": 10.278587656496864,
+        "slot_spacing": 5.126440270062024,
+        "status": "completed",
+        "avg_force": 24.131918909090913,
+        "avg_power": 803.6480165454544,
+        "accepted": false
+    },
+    {
+        "iteration": 144,
+        "slot_height": 7.5094726611896725,
+        "slot_radius": 10.225151612207215,
+        "slot_spacing": 1.683914181496002,
+        "status": "completed",
+        "avg_force": 57.48503072727272,
+        "avg_power": 1524.6591123636363,
+        "accepted": false
+    },
+    {
+        "iteration": 145,
+        "slot_height": 0.6595201313301042,
+        "slot_radius": 7.375831126065837,
+        "slot_spacing": 0.3016449568491479,
+        "status": "completed",
+        "avg_force": 0.8395162727272727,
+        "avg_power": 84.84217572727272,
+        "accepted": true
+    },
+    {
+        "iteration": 146,
+        "slot_height": 3.425440735450684,
+        "slot_radius": 2.491177027782112,
+        "slot_spacing": 2.426351730667993,
+        "status": "completed",
+        "avg_force": 9.67869218181818,
+        "avg_power": 111.79890445454545,
+        "accepted": true
+    },
+    {
+        "iteration": 147,
+        "slot_height": 7.145809453137273,
+        "slot_radius": 6.408131599937663,
+        "slot_spacing": 0.8492444368706835,
+        "status": "completed",
+        "avg_force": 24.170302545454547,
+        "avg_power": 754.2309962727272,
+        "accepted": false
+    },
+    {
+        "iteration": 148,
+        "slot_height": 4.9161131668316145,
+        "slot_radius": 8.192965113783433,
+        "slot_spacing": 0.519584013982098,
+        "status": "completed",
+        "avg_force": 15.257371090909091,
+        "avg_power": 728.4141266363637,
+        "accepted": false
+    },
+    {
+        "iteration": 149,
+        "slot_height": 4.052824413366855,
+        "slot_radius": 7.025406014584506,
+        "slot_spacing": 1.1184963432738386,
+        "status": "completed",
+        "avg_force": 16.37350272727273,
+        "avg_power": 483.9783400909091,
+        "accepted": false
+    },
+    {
+        "iteration": 150,
+        "slot_height": 6.088037508867121,
+        "slot_radius": 9.494857418718688,
+        "slot_spacing": 3.535218683036854,
+        "status": "completed",
+        "avg_force": 14.403989727272727,
+        "avg_power": 1111.522762090909,
+        "accepted": false
+    },
+    {
+        "iteration": 151,
+        "slot_height": 7.436542009235929,
+        "slot_radius": 3.6337028234317827,
+        "slot_spacing": 1.9909870267059944,
+        "status": "completed",
+        "avg_force": 24.222855272727273,
+        "avg_power": 378.1394301818182,
+        "accepted": false
+    },
+    {
+        "iteration": 152,
+        "slot_height": 1.4795066839994493,
+        "slot_radius": 9.23785049295359,
+        "slot_spacing": 1.63654661494198,
+        "status": "completed",
+        "avg_force": 9.624344090909089,
+        "avg_power": 261.27312081818184,
+        "accepted": false
+    },
+    {
+        "iteration": 153,
+        "slot_height": 0.6926269176319431,
+        "slot_radius": 5.490667870215432,
+        "slot_spacing": 5.0853778393537015,
+        "status": "completed",
+        "avg_force": 2.9342323636363634,
+        "avg_power": 60.175891,
+        "accepted": true
+    },
+    {
+        "iteration": 154,
+        "slot_height": 2.4870378996988656,
+        "slot_radius": 9.410712815832428,
+        "slot_spacing": 4.031913548381579,
+        "status": "completed",
+        "avg_force": 23.323204636363638,
+        "avg_power": 448.6723946363636,
+        "accepted": false
+    },
+    {
+        "iteration": 155,
+        "slot_height": 1.7618166615876132,
+        "slot_radius": 5.4582757746386,
+        "slot_spacing": 1.4161185600871213,
+        "status": "completed",
+        "avg_force": 8.784349363636364,
+        "avg_power": 151.071175,
+        "accepted": true
+    },
+    {
+        "iteration": 156,
+        "slot_height": 1.4369049438583654,
+        "slot_radius": 10.550519737601093,
+        "slot_spacing": 1.0158911158565458,
+        "status": "completed",
+        "avg_force": 6.668868454545454,
+        "avg_power": 305.6342878181818,
+        "accepted": false
+    },
+    {
+        "iteration": 157,
+        "slot_height": 0.6513595720463901,
+        "slot_radius": 5.067056716392273,
+        "slot_spacing": 4.161654100375364,
+        "status": "completed",
+        "avg_force": 2.5895898181818184,
+        "avg_power": 51.60108418181819,
+        "accepted": true
+    },
+    {
+        "iteration": 158,
+        "slot_height": 4.453439626176582,
+        "slot_radius": 2.623489490031493,
+        "slot_spacing": 4.69138109752514,
+        "status": "completed",
+        "avg_force": 8.056551272727273,
+        "avg_power": 153.9836134545455,
+        "accepted": true
+    },
+    {
+        "iteration": 159,
+        "slot_height": 2.999496611500577,
+        "slot_radius": 1.8206278621945033,
+        "slot_spacing": 4.263871179493375,
+        "status": "completed",
+        "avg_force": 5.08551109090909,
+        "avg_power": 67.72169036363636,
+        "accepted": true
+    },
+    {
+        "iteration": 160,
+        "slot_height": 2.985278026966827,
+        "slot_radius": 7.037992982317419,
+        "slot_spacing": 3.6496884838301398,
+        "status": "completed",
+        "avg_force": 21.631337181818182,
+        "avg_power": 357.2694107272727,
+        "accepted": false
+    },
+    {
+        "iteration": 161,
+        "slot_height": 3.7541285327605394,
+        "slot_radius": 9.734712037406474,
+        "slot_spacing": 2.2260674817872648,
+        "status": "completed",
+        "avg_force": 24.99492163636364,
+        "avg_power": 711.517693818182,
+        "accepted": false
+    },
+    {
+        "iteration": 162,
+        "slot_height": 5.014597877045164,
+        "slot_radius": 6.651350182727621,
+        "slot_spacing": 2.4475391257151227,
+        "status": "completed",
+        "avg_force": 35.49164145454545,
+        "avg_power": 556.1326906363637,
+        "accepted": false
+    },
+    {
+        "iteration": 163,
+        "slot_height": 1.242033476761239,
+        "slot_radius": 2.625116455984915,
+        "slot_spacing": 1.7529099829877974,
+        "status": "completed",
+        "avg_force": 4.923191545454546,
+        "avg_power": 42.69328090909091,
+        "accepted": true
+    },
+    {
+        "iteration": 164,
+        "slot_height": 7.425114493374787,
+        "slot_radius": 9.82179162866252,
+        "slot_spacing": 0.17167756874747403,
+        "status": "completed",
+        "avg_force": 37.51986609090909,
+        "avg_power": 1421.911403909091,
+        "accepted": false
+    },
+    {
+        "iteration": 165,
+        "slot_height": 7.097849366194321,
+        "slot_radius": 9.421498721543461,
+        "slot_spacing": 2.0184758562136014,
+        "status": "completed",
+        "avg_force": 55.67141845454546,
+        "avg_power": 1279.6953803636363,
+        "accepted": false
+    },
+    {
+        "iteration": 166,
+        "slot_height": 1.694259349996395,
+        "slot_radius": 9.409395480970868,
+        "slot_spacing": 1.8570675208382175,
+        "status": "completed",
+        "avg_force": 11.899109090909091,
+        "avg_power": 305.79271700000004,
+        "accepted": false
+    },
+    {
+        "iteration": 167,
+        "slot_height": 1.3165003486743623,
+        "slot_radius": 3.497380879103551,
+        "slot_spacing": 3.9461670365036037,
+        "status": "completed",
+        "avg_force": 3.013141909090909,
+        "avg_power": 64.62796772727273,
+        "accepted": true
+    },
+    {
+        "iteration": 168,
+        "slot_height": 0.2168827418082513,
+        "slot_radius": 9.452108016192401,
+        "slot_spacing": 4.47708623618403,
+        "status": "completed",
+        "avg_force": 1.3790277272727272,
+        "avg_power": 40.25730318181818,
+        "accepted": true
+    },
+    {
+        "iteration": 169,
+        "slot_height": 7.618033790728678,
+        "slot_radius": 1.8217542264201159,
+        "slot_spacing": 0.505580948557504,
+        "status": "completed",
+        "avg_force": 6.991554727272728,
+        "avg_power": 171.47951354545455,
+        "accepted": true
+    },
+    {
+        "iteration": 170,
+        "slot_height": 0.9015545216504797,
+        "slot_radius": 4.375168335069876,
+        "slot_spacing": 4.432205107726057,
+        "status": "completed",
+        "avg_force": 2.9465658181818184,
+        "avg_power": 58.04527718181817,
+        "accepted": true
+    },
+    {
+        "iteration": 171,
+        "slot_height": 4.930084769710132,
+        "slot_radius": 1.7531605187272907,
+        "slot_spacing": 1.67329201931481,
+        "status": "completed",
+        "avg_force": 7.108661363636364,
+        "avg_power": 107.53898690909091,
+        "accepted": true
+    },
+    {
+        "iteration": 172,
+        "slot_height": 0.6727147963619244,
+        "slot_radius": 8.997199417112673,
+        "slot_spacing": 3.5160230142734896,
+        "status": "completed",
+        "avg_force": 3.156728363636364,
+        "avg_power": 113.83266799999997,
+        "accepted": true
+    },
+    {
+        "iteration": 173,
+        "slot_height": 3.0822882119436628,
+        "slot_radius": 5.456157906557031,
+        "slot_spacing": 1.2385637492222605,
+        "status": "completed",
+        "avg_force": 12.553252454545456,
+        "avg_power": 263.88750327272726,
+        "accepted": false
+    },
+    {
+        "iteration": 174,
+        "slot_height": 3.8509120572934323,
+        "slot_radius": 10.153901687195983,
+        "slot_spacing": 1.7409477099894173,
+        "status": "completed",
+        "avg_force": 23.098129090909087,
+        "avg_power": 773.7438267272727,
+        "accepted": false
+    },
+    {
+        "iteration": 175,
+        "slot_height": 7.332560345037686,
+        "slot_radius": 2.793705454816916,
+        "slot_spacing": 3.9719357398519772,
+        "status": "completed",
+        "avg_force": 10.392573818181818,
+        "avg_power": 271.4511982727273,
+        "accepted": false
+    },
+    {
+        "iteration": 176,
+        "slot_height": 0.7226126550955878,
+        "slot_radius": 4.195531157964114,
+        "slot_spacing": 2.7728963852181767,
+        "status": "completed",
+        "avg_force": 2.038473818181818,
+        "avg_power": 43.900629090909085,
+        "accepted": true
+    },
+    {
+        "iteration": 177,
+        "slot_height": 1.4412440950817298,
+        "slot_radius": 4.184180606325163,
+        "slot_spacing": 0.9418925685703077,
+        "status": "completed",
+        "avg_force": 5.167677545454546,
+        "avg_power": 87.73971627272728,
+        "accepted": true
+    },
+    {
+        "iteration": 178,
+        "slot_height": 1.7478657855025803,
+        "slot_radius": 6.608974298079717,
+        "slot_spacing": 2.5875179553769536,
+        "status": "completed",
+        "avg_force": 12.823347909090906,
+        "avg_power": 192.0701150909091,
+        "accepted": true
+    },
+    {
+        "iteration": 179,
+        "slot_height": 0.4184930972074068,
+        "slot_radius": 8.743948189715717,
+        "slot_spacing": 0.8836582064233738,
+        "status": "completed",
+        "avg_force": 1.389630181818182,
+        "avg_power": 69.20597072727273,
+        "accepted": true
+    },
+    {
+        "iteration": 180,
+        "slot_height": 3.229447564410857,
+        "slot_radius": 5.651259760662184,
+        "slot_spacing": 2.589796687581592,
+        "status": "completed",
+        "avg_force": 17.84010663636364,
+        "avg_power": 288.91994572727276,
+        "accepted": false
+    },
+    {
+        "iteration": 181,
+        "slot_height": 2.3074743432931983,
+        "slot_radius": 5.8804661042607185,
+        "slot_spacing": 0.2529926982826151,
+        "status": "completed",
+        "avg_force": 4.834463818181818,
+        "avg_power": 218.10562345454548,
+        "accepted": false
+    },
+    {
+        "iteration": 182,
+        "slot_height": 3.933063168660668,
+        "slot_radius": 8.539889944740784,
+        "slot_spacing": 1.730031255762049,
+        "status": "completed",
+        "avg_force": 21.539113090909094,
+        "avg_power": 616.7267214545454,
+        "accepted": false
+    },
+    {
+        "iteration": 183,
+        "slot_height": 4.144206224473144,
+        "slot_radius": 4.365811166326402,
+        "slot_spacing": 0.967959682706119,
+        "status": "completed",
+        "avg_force": 11.61082709090909,
+        "avg_power": 264.46694590909095,
+        "accepted": false
+    },
+    {
+        "iteration": 184,
+        "slot_height": 3.303039999325239,
+        "slot_radius": 7.568870444717611,
+        "slot_spacing": 0.07937238630435034,
+        "status": "completed",
+        "avg_force": 23.348795363636363,
+        "avg_power": 438.63808181818183,
+        "accepted": false
+    },
+    {
+        "iteration": 185,
+        "slot_height": 4.581410048070092,
+        "slot_radius": 4.939842363765196,
+        "slot_spacing": 1.9947570670659593,
+        "status": "completed",
+        "avg_force": 17.41503181818182,
+        "avg_power": 342.620434,
+        "accepted": false
+    },
+    {
+        "iteration": 186,
+        "slot_height": 0.7025627443948137,
+        "slot_radius": 4.161060850868078,
+        "slot_spacing": 1.4775020254815658,
+        "status": "completed",
+        "avg_force": 1.180097181818182,
+        "avg_power": 43.80719154545455,
+        "accepted": true
+    },
+    {
+        "iteration": 187,
+        "slot_height": 2.559602768918996,
+        "slot_radius": 4.422918626020334,
+        "slot_spacing": 1.935874290915027,
+        "status": "completed",
+        "avg_force": 11.872516000000001,
+        "avg_power": 166.08264018181816,
+        "accepted": true
+    },
+    {
+        "iteration": 188,
+        "slot_height": 3.887582959033198,
+        "slot_radius": 6.782755663715828,
+        "slot_spacing": 1.0457536606542328,
+        "status": "completed",
+        "avg_force": 15.208970090909093,
+        "avg_power": 442.5577127272727,
+        "accepted": false
+    },
+    {
+        "iteration": 189,
+        "slot_height": 3.2633290178947063,
+        "slot_radius": 7.408645484594913,
+        "slot_spacing": 1.9148609767157108,
+        "status": "completed",
+        "avg_force": 18.718994363636362,
+        "avg_power": 420.8823641818182,
+        "accepted": false
+    },
+    {
+        "iteration": 190,
+        "slot_height": 4.610322357087568,
+        "slot_radius": 8.649940544669636,
+        "slot_spacing": 0.18910865446016317,
+        "status": "completed",
+        "avg_force": 39.61378136363637,
+        "avg_power": 736.2868211818181,
+        "accepted": false
+    },
+    {
+        "iteration": 191,
+        "slot_height": 4.381628523647274,
+        "slot_radius": 7.519591598763515,
+        "slot_spacing": 2.80493329888362,
+        "status": "completed",
+        "avg_force": 16.151033181818182,
+        "avg_power": 575.9162362727274,
+        "accepted": false
+    },
+    {
+        "iteration": 192,
+        "slot_height": 1.003830444824328,
+        "slot_radius": 7.6149076529145585,
+        "slot_spacing": 1.5304530234590932,
+        "status": "completed",
+        "avg_force": 5.996180181818182,
+        "avg_power": 134.9684837272727,
+        "accepted": true
+    },
+    {
+        "iteration": 193,
+        "slot_height": 0.41035494750218904,
+        "slot_radius": 6.776544091927644,
+        "slot_spacing": 0.4725694412386396,
+        "status": "completed",
+        "avg_force": 0.6555617272727272,
+        "avg_power": 46.981737,
+        "accepted": true
+    },
+    {
+        "iteration": 194,
+        "slot_height": 3.3852820323002075,
+        "slot_radius": 7.009481977110139,
+        "slot_spacing": 0.6957156431902307,
+        "status": "completed",
+        "avg_force": 11.656092090909091,
+        "avg_power": 404.2989518181819,
+        "accepted": false
+    },
+    {
+        "iteration": 195,
+        "slot_height": 1.5675689339118328,
+        "slot_radius": 8.468155242134552,
+        "slot_spacing": 2.1372492020841474,
+        "status": "completed",
+        "avg_force": 11.734848909090909,
+        "avg_power": 243.26841163636365,
+        "accepted": false
+    },
+    {
+        "iteration": 196,
+        "slot_height": 3.1119440537832257,
+        "slot_radius": 7.528786199078256,
+        "slot_spacing": 1.8619534160778943,
+        "status": "completed",
+        "avg_force": 18.001848181818183,
+        "avg_power": 409.23566345454543,
+        "accepted": false
+    },
+    {
+        "iteration": 197,
+        "slot_height": 5.163963507130691,
+        "slot_radius": 6.603092010295945,
+        "slot_spacing": 1.7989941465623736,
+        "status": "completed",
+        "avg_force": 15.54936490909091,
+        "avg_power": 568.2702495454545,
+        "accepted": false
+    },
+    {
+        "iteration": 198,
+        "slot_height": 1.5856235446482398,
+        "slot_radius": 5.830276608222593,
+        "slot_spacing": 0.07161075214329088,
+        "status": "completed",
+        "avg_force": 6.2823459090909095,
+        "avg_power": 148.71342772727274,
+        "accepted": true
+    },
+    {
+        "iteration": 199,
+        "slot_height": 3.134350695175301,
+        "slot_radius": 6.37927953389159,
+        "slot_spacing": 1.7007310285402355,
+        "status": "completed",
+        "avg_force": 15.967048909090913,
+        "avg_power": 329.57866909090905,
+        "accepted": false
+    },
+    {
+        "iteration": 200,
+        "slot_height": 0.9525448492560158,
+        "slot_radius": 8.561043590665044,
+        "slot_spacing": 0.1579015759582943,
+        "status": "completed",
+        "avg_force": 0.9810571818181817,
+        "avg_power": 150.05323418181817,
+        "accepted": true
+    },
+    {
+        "iteration": 201,
+        "slot_height": 1.7749557478662439,
+        "slot_radius": 6.86982650666812,
+        "slot_spacing": 1.3107216154820278,
+        "status": "completed",
+        "avg_force": 9.18365409090909,
+        "avg_power": 206.56625327272724,
+        "accepted": false
+    },
+    {
+        "iteration": 202,
+        "slot_height": 1.928275381194493,
+        "slot_radius": 8.294891324936309,
+        "slot_spacing": 0.5714546885188254,
+        "status": "completed",
+        "avg_force": 6.170297545454545,
+        "avg_power": 291.9899991818182,
+        "accepted": false
+    },
+    {
+        "iteration": 203,
+        "slot_height": 3.0354240820031055,
+        "slot_radius": 4.90817156087053,
+        "slot_spacing": 0.5340773657013267,
+        "status": "completed",
+        "avg_force": 8.013749636363636,
+        "avg_power": 225.63619900000003,
+        "accepted": false
+    },
+    {
+        "iteration": 204,
+        "slot_height": 2.134468001390288,
+        "slot_radius": 7.967556282512669,
+        "slot_spacing": 0.8272823899523563,
+        "status": "completed",
+        "avg_force": 8.55444618181818,
+        "avg_power": 303.93445709090906,
+        "accepted": false
+    },
+    {
+        "iteration": 205,
+        "slot_height": 3.625947457602991,
+        "slot_radius": 8.091685483541038,
+        "slot_spacing": 0.13042859592081474,
+        "status": "completed",
+        "avg_force": 27.827169909090912,
+        "avg_power": 527.8603329090909,
+        "accepted": false
+    },
+    {
+        "iteration": 206,
+        "slot_height": 5.366201774271894,
+        "slot_radius": 6.713234232398558,
+        "slot_spacing": 1.445459457464125,
+        "status": "completed",
+        "avg_force": 17.26755345454545,
+        "avg_power": 602.8503167272728,
+        "accepted": false
+    },
+    {
+        "iteration": 207,
+        "slot_height": 2.755452834731952,
+        "slot_radius": 8.231862606548306,
+        "slot_spacing": 2.2273477696199144,
+        "status": "completed",
+        "avg_force": 18.764616090909097,
+        "avg_power": 411.313197090909,
+        "accepted": false
+    },
+    {
+        "iteration": 208,
+        "slot_height": 2.0886468491606514,
+        "slot_radius": 6.319640818147343,
+        "slot_spacing": 0.14984303235683133,
+        "status": "completed",
+        "avg_force": 11.362646363636365,
+        "avg_power": 217.7328318181818,
+        "accepted": false
+    },
+    {
+        "iteration": 209,
+        "slot_height": 3.1105524145224845,
+        "slot_radius": 7.786179984751154,
+        "slot_spacing": 2.8263871495139474,
+        "status": "completed",
+        "avg_force": 21.821527272727273,
+        "avg_power": 429.06931418181824,
+        "accepted": false
+    },
+    {
+        "iteration": 210,
+        "slot_height": 1.9173294056612118,
+        "slot_radius": 5.899655456110318,
+        "slot_spacing": 2.2831554022619525,
+        "status": "completed",
+        "avg_force": 12.333829454545453,
+        "avg_power": 181.01667,
+        "accepted": true
+    },
+    {
+        "iteration": 211,
+        "slot_height": 5.1811292630078265,
+        "slot_radius": 6.654297842113285,
+        "slot_spacing": 1.726563989850059,
+        "status": "completed",
+        "avg_force": 16.420170363636363,
+        "avg_power": 575.668920909091,
+        "accepted": false
+    },
+    {
+        "iteration": 212,
+        "slot_height": 4.737687471566591,
+        "slot_radius": 6.700724304773546,
+        "slot_spacing": 0.10586064778706622,
+        "status": "completed",
+        "avg_force": 35.324304454545455,
+        "avg_power": 530.3095490000001,
+        "accepted": false
+    },
+    {
+        "iteration": 213,
+        "slot_height": 1.1141616187444021,
+        "slot_radius": 8.447897931281222,
+        "slot_spacing": 1.491886432460402,
+        "status": "completed",
+        "avg_force": 6.645165727272726,
+        "avg_power": 172.67754036363635,
+        "accepted": true
+    },
+    {
+        "iteration": 214,
+        "slot_height": 5.165604979050085,
+        "slot_radius": 6.967928061492966,
+        "slot_spacing": 2.8793512378793964,
+        "status": "completed",
+        "avg_force": 29.277325545454538,
+        "avg_power": 611.0552627272727,
+        "accepted": false
+    },
+    {
+        "iteration": 215,
+        "slot_height": 1.981857329825162,
+        "slot_radius": 7.3359639019891665,
+        "slot_spacing": 0.8686101948822016,
+        "status": "completed",
+        "avg_force": 8.028947818181818,
+        "avg_power": 251.98692445454543,
+        "accepted": false
+    },
+    {
+        "iteration": 216,
+        "slot_height": 2.8724728910432895,
+        "slot_radius": 6.213616763134864,
+        "slot_spacing": 2.6668338971118795,
+        "status": "completed",
+        "avg_force": 17.810773909090912,
+        "avg_power": 290.5292018181818,
+        "accepted": false
+    },
+    {
+        "iteration": 217,
+        "slot_height": 2.1856823849507085,
+        "slot_radius": 6.268857779661758,
+        "slot_spacing": 2.708764431938701,
+        "status": "completed",
+        "avg_force": 15.100642545454546,
+        "avg_power": 224.74786145454547,
+        "accepted": false
+    },
+    {
+        "iteration": 218,
+        "slot_height": 3.4689535226751804,
+        "slot_radius": 8.081510988150832,
+        "slot_spacing": 1.5376322233747663,
+        "status": "completed",
+        "avg_force": 18.350154545454547,
+        "avg_power": 504.5632270909091,
+        "accepted": false
+    },
+    {
+        "iteration": 219,
+        "slot_height": 1.8077391298979317,
+        "slot_radius": 7.825228134896289,
+        "slot_spacing": 0.5658000850803779,
+        "status": "completed",
+        "avg_force": 5.618905545454545,
+        "avg_power": 252.16231954545455,
+        "accepted": false
+    },
+    {
+        "iteration": 220,
+        "slot_height": 2.8018842329584506,
+        "slot_radius": 4.825728528451814,
+        "slot_spacing": 1.438281516207825,
+        "status": "completed",
+        "avg_force": 11.71680881818182,
+        "avg_power": 203.4857648181818,
+        "accepted": false
+    },
+    {
+        "iteration": 221,
+        "slot_height": 5.373453685812834,
+        "slot_radius": 8.33216772348695,
+        "slot_spacing": 0.2538045113434116,
+        "status": "completed",
+        "avg_force": 46.816643818181824,
+        "avg_power": 813.9861653636364,
+        "accepted": false
+    },
+    {
+        "iteration": 222,
+        "slot_height": 3.95875533532652,
+        "slot_radius": 6.690880408929444,
+        "slot_spacing": 1.3237782772484417,
+        "status": "completed",
+        "avg_force": 16.890079,
+        "avg_power": 442.3415970909091,
+        "accepted": false
+    },
+    {
+        "iteration": 223,
+        "slot_height": 4.335492797114046,
+        "slot_radius": 4.6325467971741245,
+        "slot_spacing": 0.39929230504118135,
+        "status": "completed",
+        "avg_force": 9.269044818181818,
+        "avg_power": 299.990169,
+        "accepted": false
+    },
+    {
+        "iteration": 224,
+        "slot_height": 1.467730645869454,
+        "slot_radius": 5.615452066589392,
+        "slot_spacing": 1.3434162159586118,
+        "status": "completed",
+        "avg_force": 7.323938999999999,
+        "avg_power": 130.3930091818182,
+        "accepted": true
+    },
+    {
+        "iteration": 225,
+        "slot_height": 4.2831494720382315,
+        "slot_radius": 7.416008353353303,
+        "slot_spacing": 1.6201437362258633,
+        "status": "completed",
+        "avg_force": 20.477748727272726,
+        "avg_power": 552.6176642727273,
+        "accepted": false
+    },
+    {
+        "iteration": 226,
+        "slot_height": 3.470159357974378,
+        "slot_radius": 5.028081462356285,
+        "slot_spacing": 2.6272920630114793,
+        "status": "completed",
+        "avg_force": 17.142755272727275,
+        "avg_power": 266.2926279090909,
+        "accepted": false
+    },
+    {
+        "iteration": 227,
+        "slot_height": 0.5513039813767442,
+        "slot_radius": 5.8339303676764915,
+        "slot_spacing": 2.6786627717443636,
+        "status": "started"
+    }
+]

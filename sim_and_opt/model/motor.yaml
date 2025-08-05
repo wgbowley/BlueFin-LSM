@@ -1,0 +1,29 @@
+model:
+  number_slots: 12
+  number_poles: 4
+  d_currents: 0
+  q_currents: 5
+  fill_factor: 0.85
+  extra_pairs: 5
+  boundary_material: Air
+
+slot:
+  radius: 6.45 # 4.23
+  height: 2.9 # 6.72
+  spacing: 0.45
+  material: 0.315mm
+  wire_diameter: 0.315
+  armature_stator_gap: 0.5
+
+pole:
+  radius: 3
+  height: 20
+  material: N52
+
+tube:
+  radius: 2.5
+  material: CarbonFiberWrap
+  
+output:
+  folder_path: sim_and_opt
+  file_name: motor
