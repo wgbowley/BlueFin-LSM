@@ -1,0 +1,10 @@
+/BlueShark-1.2-dev
+*.pyc
+sim_and_opt/model/__pycache__/motor.cpython-313.pyc
+sim_and_opt/model/motor.ele
+sim_and_opt/model/motor.fem
+sim_and_opt/model/motor.ans
+sim_and_opt/model/__pycache__/motor.cpython-313.pyc
+sim_and_opt/model/motor.poly
+sim_and_opt/motor.ans
+sim_and_opt/motor.fem

@@ -1,29 +1,29 @@
+# Tubular motors use Z-R (axial-radial) coordinate system.
+# All dimensions in millimeters (mm), currents in Amperes (A).
+
+output:
+  folder_path: model
+  file_name: motor
+  
 model:
-  number_slots: 12
-  number_poles: 4
-  d_currents: 0
-  q_currents: 5
-  fill_factor: 0.85
-  extra_pairs: 5
+  number_slots: 6           # Number of coils within armature
+  number_poles: 2           # Number of poles under the armature at any instant
+  extra_pairs: 5            # Extra pairs (N-S) to approximate infinite track 
+  d_currents: 0             # Direct-axis current (A)
+  q_currents: 6             # Quadrature-axis current (A)
+  fill_factor: 0.70         # Fraction of the slot filled by the slot material 
   boundary_material: Air
 
 slot:
-  radius: 6.45 # 4.23
-  height: 2.9 # 6.72
-  spacing: 0.45
-  material: 0.315mm
-  wire_diameter: 0.315
-  armature_stator_gap: 0.5
+  inner_radius: 8.25        # Inner radius of the slot
+  outer_radius: 15.25       # Outer radius of the slot 
+  axial_length: 4           # Length along axial (Z) direction
+  axial_spacing: 1.27       # Spacing between slots along axial direction
+  material: 0.315mm         # FEMM Material for the wire (Check FEMM Material Library)
+  wire_diameter: 0.315      # Diameter of the wire 
 
 pole:
-  radius: 3
-  height: 20
-  material: N52
-
-tube:
-  radius: 2.5
-  material: CarbonFiberWrap
-  
-output:
-  folder_path: sim_and_opt
-  file_name: motor
+  inner_radius: 2.5         # Inner radius of the pole 
+  outer_radius: 6           # Outer radius of the pole 
+  axial_length: 15          # Length of the pole along axial direction 
+  material: N52             # Magnet grade

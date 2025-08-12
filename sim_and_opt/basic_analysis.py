@@ -22,28 +22,28 @@ import matplotlib.pyplot as plt
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Framework imports
-from blueshark.simulations.alignment import phase_alignment
-from blueshark.simulations.rotational_analysis import rotational_analysis
-from blueshark.output.selector import OutputSelector
-from blueshark.output.writer import write_output_json
-from model.motor import BlueFin
+from bluefin.simulations.alignment import phase_alignment
+from bluefin.simulations.rotational_analysis import rotational_analysis
+from bluefin.output.selector import OutputSelector
+from bluefin.output.writer import write_output_json
+from model.motor import Tubular
 
 # --- Configuration ---
-numSamples = 100
-motorConfigPath = "sim_and_opt/model/motor.yaml"
-outputPath = "rotational_analysis_results"
+numSamples = 10
+motorConfigPath = "model/motor.yaml"
+outputPath = "rotational_analysis_results.json"
 requestedOutputs = ["force_lorentz"]
 
 # --- Initialize and simulate ---
-motor = BlueFin(motorConfigPath)
-motor.setup()
+motor = Tubular(motorConfigPath)
+print(motor.setup())
 
-# Only required for some models 
+# Only required for some models
 # Makes sure flux of the stator & armature are aligned
 phase_offset = phase_alignment(motor, 20)
 
 outputSelector = OutputSelector(requestedOutputs)
-subjects = {"group": motor.get_moving_group(), "phaseName": motor.phases}
+subjects = {"group": motor.moving_group, "phaseName": motor.phases}
 
 results = rotational_analysis(motor, outputSelector, subjects, numSamples, phase_offset)
 
