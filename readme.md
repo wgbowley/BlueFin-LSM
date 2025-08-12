@@ -1,4 +1,10 @@
 ## Uses femm through pyfemm & blueshark framework:
+Custom linear motor for high performance 3d printers.
+
+- Hallow Magnets with a centeral caborn fibre support rod
+- Teflon Casing -> Two parts ()
+
+### Sim and opt Usage
 - Simulate Designs
 - Optimize Designs
 

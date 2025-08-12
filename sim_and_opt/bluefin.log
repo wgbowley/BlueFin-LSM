@@ -288,3 +288,26 @@
 2025-08-12 18:50:52,863 - INFO - Calculated slot_axial_length: 3.916667
 2025-08-12 18:50:53,036 - INFO - Successfully saved output to Results/force_random_search_results.json
 2025-08-12 18:50:53,036 - INFO - Starting phase alignment for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:51:08,137 - INFO - Phase alignment completed for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:51:08,137 - INFO - Starting rotational analysis for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:51:24,563 - INFO - Rotational Analysis completed for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:51:24,564 - INFO - Successfully saved output to Results/force_random_search_results.json
+2025-08-12 18:51:24,696 - INFO - Calculated slot_axial_length: 3.916667
+2025-08-12 18:51:24,941 - INFO - Successfully saved output to Results/force_random_search_results.json
+2025-08-12 18:51:24,941 - INFO - Starting phase alignment for <model.motor.Tubular object at 0x000001DD8A955E50>
+2025-08-12 18:51:40,416 - INFO - Phase alignment completed for <model.motor.Tubular object at 0x000001DD8A955E50>
+2025-08-12 18:51:40,416 - INFO - Starting rotational analysis for <model.motor.Tubular object at 0x000001DD8A955E50>
+2025-08-12 18:51:56,053 - INFO - Rotational Analysis completed for <model.motor.Tubular object at 0x000001DD8A955E50>
+2025-08-12 18:51:56,054 - INFO - Successfully saved output to Results/force_random_search_results.json
+2025-08-12 18:51:56,164 - INFO - Calculated slot_axial_length: 3.916667
+2025-08-12 18:51:56,340 - INFO - Successfully saved output to Results/force_random_search_results.json
+2025-08-12 18:51:56,340 - INFO - Starting phase alignment for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:52:12,576 - INFO - Phase alignment completed for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:52:12,576 - INFO - Starting rotational analysis for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:52:28,957 - INFO - Rotational Analysis completed for <model.motor.Tubular object at 0x000001DD8A956490>
+2025-08-12 18:52:28,958 - INFO - Successfully saved output to Results/force_random_search_results.json
+2025-08-12 18:52:29,099 - INFO - Calculated slot_axial_length: 3.916667
+2025-08-12 18:52:29,286 - INFO - Successfully saved output to Results/force_random_search_results.json
+2025-08-12 18:52:29,286 - INFO - Starting phase alignment for <model.motor.Tubular object at 0x000001DD8A955E50>
+2025-08-12 18:52:45,033 - INFO - Phase alignment completed for <model.motor.Tubular object at 0x000001DD8A955E50>
+2025-08-12 18:52:45,033 - INFO - Starting rotational analysis for <model.motor.Tubular object at 0x000001DD8A955E50>

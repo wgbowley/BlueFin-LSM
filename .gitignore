@@ -8,3 +8,4 @@ sim_and_opt/model/__pycache__/motor.cpython-313.pyc
 sim_and_opt/model/motor.poly
 sim_and_opt/motor.ans
 sim_and_opt/motor.fem
+*.log
