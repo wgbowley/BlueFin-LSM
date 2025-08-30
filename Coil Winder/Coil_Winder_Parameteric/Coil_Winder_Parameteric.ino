@@ -26,7 +26,9 @@ float axialLength = 0;  // mm traverse length derived from turns
 
 int currentLayer = 0;   // which layer we’re on
 int totalLayers = 0;    // how many layers fit
-bool zDirectionForward = true; // toggles every layer
+bool zDirectionForward = false; // start from right to left
+
+bool isWinding = false;  // serial-controlled winding
 
 // ---------------- FUNCTIONS ----------------
 float zDisplacement(float rDisplacement, float axialLength, float layerTurns){
@@ -40,6 +42,7 @@ float estimateTurns(float length, float height, float wireDiameter, float fillFa
 }
 
 void setup() {
+  Serial.begin(9600);  // initialize serial communication
   pinMode(STEP1_PIN, OUTPUT);
   pinMode(DIR1_PIN, OUTPUT);
   pinMode(EN1_PIN, OUTPUT);
@@ -52,7 +55,7 @@ void setup() {
   digitalWrite(EN2_PIN, LOW);
 
   digitalWrite(DIR1_PIN, HIGH); // bobbin rotate forward
-  digitalWrite(DIR2_PIN, HIGH); // start Z forward
+  digitalWrite(DIR2_PIN, zDirectionForward ? HIGH : LOW); // Z start direction
 
   // --- Estimate turns + layers ---
   totalTurns = estimateTurns(length, height, wireDiameter, fillFactor);
@@ -61,9 +64,29 @@ void setup() {
 
   // Define axial travel from turns
   axialLength = 2 * PI * layerTurns;  // Z-axis displacement matches rotation span
+
+  Serial.println("Type 'start' to begin winding from right to left.");
+  Serial.println("Type 'stop' to stop winding.");
 }
 
 void loop() {
+  // Check for serial commands
+  if (Serial.available() > 0) {
+    String command = Serial.readStringUntil('\n');
+    command.trim();
+    if (command.equalsIgnoreCase("start")) {
+      isWinding = true;
+      Serial.println("Winding started.");
+    }
+    if (command.equalsIgnoreCase("stop")) {
+      isWinding = false;
+      Serial.println("Winding stopped.");
+    }
+  }
+
+  // Only run winding logic if active
+  if (!isWinding) return;
+
   // Spin motor 1 one step
   digitalWrite(STEP1_PIN, HIGH);
   delayMicroseconds(500);
@@ -86,6 +109,8 @@ void loop() {
 
     // Stop after all layers
     if (currentLayer >= totalLayers) {
+      isWinding = false;
+      Serial.println("Winding complete.");
       while (1); // stop winding
     }
     return;
@@ -111,3 +136,4 @@ void loop() {
     stepCount2++;
   }
 }
+
