@@ -1,8 +1,8 @@
-# Tubular motors use Z-R (axial-radial) coordinate system.
+# Single fed Tubular motors use Z-R (axial-radial) coordinate system.
 # All dimensions in millimeters (mm), currents in Amperes (A).
 
 output:
-  folder_path: model
+  folder_path: models/single_fed_motor
   file_name: motor
   
 model:
@@ -10,15 +10,15 @@ model:
   number_poles: 2           # Number of poles under the armature at any instant
   extra_pairs: 5            # Extra pairs (N-S) to approximate infinite track 
   d_currents: 0             # Direct-axis current (A)
-  q_currents: 6             # Quadrature-axis current (A)
+  q_currents: 4             # Quadrature-axis current (A)
   fill_factor: 0.70         # Fraction of the slot filled by the slot material 
   boundary_material: Air
 
 slot:
-  inner_radius: 8.25        # Inner radius of the slot
-  outer_radius: 15.25       # Outer radius of the slot 
+  inner_radius: 7.25        # Inner radius of the slot
+  outer_radius: 11.45       # Outer radius of the slot 
   axial_length: 4           # Length along axial (Z) direction
-  axial_spacing: 1.27       # Spacing between slots along axial direction
+  axial_spacing: 1.2        # Spacing between slots along axial direction
   material: 0.315mm         # FEMM Material for the wire (Check FEMM Material Library)
   wire_diameter: 0.315      # Diameter of the wire 
 

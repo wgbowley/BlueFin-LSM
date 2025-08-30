@@ -23,11 +23,13 @@ from bluefin.output.selector import OutputSelector
 from bluefin.output.writer import write_output_json
 from bluefin.simulations.rotational_analysis import rotational_analysis
 from bluefin.simulations.alignment import phase_alignment
-from model.motor import Tubular
+from single_fed_motor.motor import Tubular
+
 
 # --- Helper functions ---
 def random_value():
     return random.random() * 2 - 1
+
 
 def generate_geometry(step_size: float, slot_height: float, slot_radius: float, spacing: float) -> tuple[float, float]:
     height = abs(slot_height + step_size * random_value())
@@ -52,14 +54,14 @@ stall = 0
 
 candidate_values = [0.125, 0.16, 0.2, 0.25, 0.315, 0.4, 0.5, 0.63, 0.8]
 
-motor_config_path = "model/motor.yaml" 
-results_output = "Results/force_random_search_results.json"
+motor_config_path = "single_fed_motor/single.yaml" 
+results_output = "Results/single_fed_motor.json"
 requested_outputs = ["force_lorentz", "phase_power"]
 ALIGN_SAMPLES = 10
-TEST_SAMPLES  = 10
+TEST_SAMPLES  = 1
+
 
 optimization_results = []
-
 
 # --- Main optimization loop ---
 for index in range(SIMULATION_NUM):
@@ -70,7 +72,7 @@ for index in range(SIMULATION_NUM):
     diameter = random.choice(candidate_values)
 
     height, radius, spacing = generate_geometry(STEP_SIZE, slot_height, slot_radius, spacing)
-    spacing = 1.3
+    spacing = 0.8
     try:
         motor.slot_axial_length = height
         motor.slot_thickness = radius
@@ -78,6 +80,11 @@ for index in range(SIMULATION_NUM):
         motor.slot_wire_diameter = diameter
         motor.slot_material = str(diameter) + "mm"
         motor.setup()
+
+        output_selector = OutputSelector(requested_outputs)
+        subjects = {"group": motor.moving_group, "phaseName": motor.phases}
+        phase_offset = phase_alignment(motor, ALIGN_SAMPLES, False)
+        results = rotational_analysis(motor, output_selector, subjects, TEST_SAMPLES, phase_offset, False)
 
         # Log test start
         test_log = {
@@ -88,15 +95,9 @@ for index in range(SIMULATION_NUM):
             "diameter": diameter,
             "status": "started"
         }
-
-        optimization_results.append(test_log)
         write_output_json(optimization_results, results_output)
 
-        output_selector = OutputSelector(requested_outputs)
-        subjects = {"group": motor.moving_group, "phaseName": motor.phases}
-        phase_offset = phase_alignment(motor, ALIGN_SAMPLES, False)
-        results = rotational_analysis(motor, output_selector, subjects, TEST_SAMPLES, phase_offset, False)
-
+        optimization_results.append(test_log)
         total_force = 0.0
         total_power = 0.0
         count = 0

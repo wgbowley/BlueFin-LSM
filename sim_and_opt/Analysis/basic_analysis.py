@@ -6,19 +6,15 @@ Date: 2025-07-14
 
 Description:
     Runs a rotational analysis on a tubular motor using a configuration file.
-    Outputs selected results to JSON and plots Lorentz forces versus displacement.
-
-Usage:
-    Ensure FEMM and dependencies are installed. Modify requested outputs or
-    motor configuration as needed: 
-    (models/basic_tubular/tubular.yaml & models/basic_tubular/tubular_motor.py)
+    Outputs selected results to JSON and plots Lorentz forces versus
+    displacement.
 """
 
+import matplotlib.pyplot as plt
 import os
 import sys
-import matplotlib.pyplot as plt
 
-# Applies project root directory dynamically 
+# Applies project root directory dynamically
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # Framework imports
@@ -26,12 +22,12 @@ from bluefin.simulations.alignment import phase_alignment
 from bluefin.simulations.rotational_analysis import rotational_analysis
 from bluefin.output.selector import OutputSelector
 from bluefin.output.writer import write_output_json
-from model.motor import Tubular
+from models.iron_tubular.motor import Tubular
 
 # --- Configuration ---
-numSamples = 10
-motorConfigPath = "model/motor.yaml"
-outputPath = "rotational_analysis_results.json"
+numSamples = 100
+motorConfigPath = "models/iron_tubular/single.yaml"
+outputPath = "test.json"
 requestedOutputs = ["force_lorentz"]
 
 # --- Initialize and simulate ---
@@ -48,7 +44,7 @@ subjects = {"group": motor.moving_group, "phaseName": motor.phases}
 results = rotational_analysis(motor, outputSelector, subjects, numSamples, phase_offset)
 
 # Save results to JSON file
-write_output_json(results, "sim_and_opt/rotational_analysis_results")
+write_output_json(results, "sim_and_opt/rotational_analysis_results.json")
 
 # --- Plotting ---
 positions = [result["displacement"] for result in results]

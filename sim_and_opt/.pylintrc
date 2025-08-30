@@ -1,0 +1,3 @@
+[MESSAGES CONTROL]
+disable=W0201 # Declaring all variables within __init__ of a class
+disable=W0718 # Catching too general exception ExceptionPylint

@@ -8,15 +8,13 @@ Description:
     Custom linear motor for high performance 3d printers.
     - Hallow Magnets with a centeral caborn fibre support rod
     - Teflon Casing -> Two parts ()
+    - Iron Yoke to guide flux path (Made of Iron Wire)
 """
 
-
-
+import logging
 import pathlib
 import yaml
-import logging
 import math
-
 from bluefin.motor.interface import LinearBase
 
 from bluefin.motor.utils import require
@@ -26,7 +24,7 @@ from bluefin.domain.generation.geometry import origin_points
 from bluefin.domain.generation.number_turns import estimate_turns
 from bluefin.femm_utils.interface import femm_setup
 from bluefin.femm_utils.preprocesses.materials import (
-    add_femm_material, add_custom_material, load_materials
+    add_femm_material, load_materials
 )
 
 from bluefin.femm_utils.preprocesses.actions import (
@@ -91,8 +89,7 @@ class Tubular(LinearBase):
             self.number_slots,
             0,
             self.slot_pitch,
-            x_offset= self.slot_inner_radius,
-
+            x_offset=self.slot_inner_radius,
         )
 
         # Calculates turns within the slot cross section
@@ -121,6 +118,21 @@ class Tubular(LinearBase):
                 self.group_slot,
                 turns
             )
+
+        self.yoke_inner_radius = self.slot_inner_radius + self.slot_thickness
+        yoke_origin = (self.yoke_inner_radius, 0)
+        length = self.circumference
+
+        draw_and_set_properties(
+            yoke_origin,
+            self.yoke_thickness,
+            length,
+            self.yoke_material,
+            0,  # No magnetization
+            "",
+            self.group_slot,
+            0
+        )
 
     def add_stator(self) -> None:
         """
@@ -181,20 +193,31 @@ class Tubular(LinearBase):
         Compute and set key geometric parameters for this motor class,
         including slot pitch, motor circumference, pole pitch
         """
-        
+
+        # Calculates slot start-to-start axial distance
+        self.slot_pitch = self.slot_axial_length + self.slot_axial_spacing
+
+        # The pattern length includes air gaps not physically present.
+        # Subtract to get the actual armature circumference.
+        pattern_length = self.slot_pitch * self.number_slots
         air_gaps = 1 * self.slot_axial_spacing
 
-        self.slot_axial_length = (
-            (self.pole_axial_length * self.number_poles + air_gaps) / self.number_slots
-        ) - self.slot_axial_spacing
+        self._circumference = pattern_length - air_gaps
 
-        self.slot_pitch = self.slot_axial_length + self.slot_axial_spacing
-        self._circumference = self.slot_pitch * self.number_slots - air_gaps
-        self.pole_pitch = self._circumference / self.number_poles
-        self.total_number_poles = (4 * self.extra_pairs) + self.number_poles
+        # Calculates pole start-to-start axial distance
+        self.pole_pitch = self.circumference / self.number_poles
 
-        import logging
-        logging.info(f"Calculated slot_axial_length: {self.slot_axial_length:.6f}")
+        # Ensures that the program doesn't crash from overlapping poles/slots
+        if self.pole_pitch < self.pole_axial_length:
+            msg = f"Desgin failed to generate as pole pitch isn't possbile: {self.pole_pitch}"
+            logging.warning(msg)
+            raise ValueError(msg)
+
+        if self.pole_outer_radius > self.yoke_outer_radius:
+            msg = f"Desgin failed to generate as yoke radius isn't possbile: {self.yoke_inner_radius}"
+            logging.warning(msg)
+            raise ValueError(msg)
+
         # Calculate total number of poles
         # Extra pairs add poles symmetrically on both sides
         self.total_number_poles = (4 * self.extra_pairs) + self.number_poles
@@ -208,6 +231,7 @@ class Tubular(LinearBase):
         add_femm_material(materials, self.slot_material)
         add_femm_material(materials, self.pole_material)
         add_femm_material(materials, self.boundary_material)
+        add_femm_material(materials, self.yoke_material)
 
     def get_parameters(self) -> dict:
         """
@@ -294,7 +318,7 @@ class Tubular(LinearBase):
             raise ValueError(msg) from e
 
         # Check for required sections in the parameter file
-        required_sections = ["model", "slot", "pole", "output"]
+        required_sections = ["model", "slot", "pole", "yoke", "output"]
 
         for section in required_sections:
             # Existence check for required sections
@@ -306,6 +330,7 @@ class Tubular(LinearBase):
         model = parameters["model"]
         slot = parameters["slot"]
         pole = parameters["pole"]
+        yoke = parameters["yoke"]
         output = parameters["output"]
 
         # Assign model parameters
@@ -334,9 +359,14 @@ class Tubular(LinearBase):
         self.pole_axial_length = require("axial_length", pole)
         self.pole_material = require("material", pole)
 
+        # Assign yoke parameters
+        self.yoke_inner_radius = require("inner_radius", yoke)
+        self.yoke_outer_radius = require("outer_radius", yoke)
+        self.yoke_material = require("material", yoke)
         # Calculates radial thickness for slot, tube & poles
         self.slot_thickness = self.slot_outer_radius - self.slot_inner_radius
         self.pole_thickness = self.pole_outer_radius - self.pole_inner_radius
+        self.yoke_thickness = self.yoke_outer_radius - self.yoke_inner_radius
 
         # Assign output
         self.folder_path = require("folder_path", output)
