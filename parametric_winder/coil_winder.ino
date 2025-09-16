@@ -1,3 +1,28 @@
+/*
+Filename: coil_winder.py
+Author: William Bowley
+Version: 0.1
+Date: 2025-08-30
+
+This script winds a helical coil using the
+following parametric equation:
+
+(x,y,z) = (
+  (r_inner + layer * wire_dia)cos(t), 
+  (r_inner + layer * wire_dia)sin(t), 
+  l/(2*pi*T)t
+)
+
+where: 
+  r_inner: inner radius of the coil
+  layer: specific layer number [0, ... , l / d]
+  wire_dia: diameter of the wire used
+  l: thickness of the annulus
+  T: number of turns per layer
+  t: parameter in [0, 2pi]
+*/
+
+
 #define DIR1_PIN 3
 #define STEP1_PIN 4
 #define EN1_PIN 2

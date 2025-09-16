@@ -1,6 +1,32 @@
 [
     {
-        "motor_yaml": "# Single fed Tubular motors use Z-R (axial-radial) coordinate system.\n# All dimensions in millimeters (mm), currents in Amperes (A).\n\noutput:\n  folder_path: models/single_fed_motor\n  file_name: motor\n  \nmodel:\n  number_slots: 6           # Number of coils within armature\n  number_poles: 2           # Number of poles under the armature at any instant\n  extra_pairs: 5            # Extra pairs (N-S) to approximate infinite track \n  d_currents: 0             # Direct-axis current (A)\n  q_currents: 4             # Quadrature-axis current (A)\n  fill_factor: 0.70         # Fraction of the slot filled by the slot material \n  boundary_material: Air\n\nslot:\n  inner_radius: 7.25        # Inner radius of the slot\n  outer_radius: 11.45       # Outer radius of the slot \n  axial_length: 4           # Length along axial (Z) direction\n  axial_spacing: 1.2        # Spacing between slots along axial direction\n  material: 0.315mm         # FEMM Material for the wire (Check FEMM Material Library)\n  wire_diameter: 0.315      # Diameter of the wire \n\npole:\n  inner_radius: 2.5         # Inner radius of the pole \n  outer_radius: 6           # Outer radius of the pole \n  axial_length: 15          # Length of the pole along axial direction \n  material: N52             # Magnet grade\n",
+        "output": {
+            "folder_path": "models/single_fed_motor",
+            "file_name": "motor"
+        },
+        "model": {
+            "number_slots": 6,
+            "number_poles": 2,
+            "extra_pairs": 5,
+            "d_currents": 0,
+            "q_currents": 4,
+            "fill_factor": 0.70,
+            "boundary_material": "Air"
+        },
+        "slot": {
+            "inner_radius": 7.25,
+            "outer_radius": 11.45,
+            "axial_length": 4.0,
+            "axial_spacing": 1.2,
+            "material": "0.315mm",
+            "wire_diameter": 0.315
+        },
+        "pole": {
+            "inner_radius": 2.5,
+            "outer_radius": 6.0,
+            "axial_length": 15.0,
+            "material": "N52"
+        },
         "generations": [
             {
                 "generation": 0,
