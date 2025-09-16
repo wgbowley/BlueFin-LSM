@@ -1,4 +1,3 @@
-# DRAFT
 ## Bluefin: Linear Motors for 3D printers
 ![Bluefin Logo](media//images/bluefin.png)
 
